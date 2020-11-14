@@ -4,7 +4,7 @@
   "description": "Cruise Ships object oriented programming exercise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --bail"
   },
   "author": "Paul Hardy",
   "license": "ISC",
