@@ -15,10 +15,10 @@ describe('Port', () => {
         let blackPearl;
         beforeEach(() => {
           port = new Port('Dover');
-          ship = {};
-          titanic = {};
-          queenMary = {};
-          blackPearl = {};
+          ship = jest.fn();
+          titanic = jest.fn();
+          queenMary = jest.fn();
+          blackPearl = jest.fn();
         })
 
       it('can have a name', () => {
