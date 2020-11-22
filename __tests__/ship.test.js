@@ -12,7 +12,7 @@ describe('Ship', () => {
     beforeEach(() => {
       dover = {removeShip: jest.fn(), addShip: jest.fn()};
       calais = {removeShip: jest.fn(), addShip: jest.fn()};
-      itinerary = new Itinerary([dover, calais]);
+      itinerary = { ports: [dover, calais] };
       ship = new Ship(itinerary);
     });
      it('can be instantiated', () => {
